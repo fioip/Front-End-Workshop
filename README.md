@@ -1,54 +1,28 @@
-# React + TypeScript + Vite
+Pagini:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Home Page
+	- lista cu primele 5 cele mai ascultate
+	- cele mai noi 5 
 
-Currently, two official plugins are available:
+Search Page
+	- search by artist
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Individual Page Podcast
+	- nume artist, nume melodie, poza, tipul melodiei
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Tasks:
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- [ ] 1. Integrare API -> Fiona, Razvi
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- [ ] 2. Home page -> schelet -> Nandor
+- [ ]- lista cu primele 5 cele mai ascultate -> Nandor
+- [ ]	- cele mai 5 noi piese -> Laura
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- [ ] 3. Search page -> schelet -> Denis
+- [ ]	- bara de search -> Dani
+- [ ]	- functionalitate search dupa artist -> Fiona, Razvi
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- [ ] 4. Individual Page Song -> schelet -> Fiona, Razvi
+- [ ]	- detalii melodie -> Madalin
+ 
