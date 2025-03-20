@@ -15,14 +15,16 @@ Individual Page Podcast
 
 - [ ] 1. Integrare API -> Fiona, Razvi
 
-- [ ] 2. Home page -> schelet -> Nandor
+- [ ] 2. Navbar -> Fiona
+
+- [ ] 3. Home page -> schelet -> Nandor
 - [ ] lista cu primele 5 cele mai ascultate -> Nandor
 - [ ] cele mai 5 noi piese -> Laura
 
-- [ ] 3. Search page -> schelet -> Denis
+- [ ] 4. Search page -> schelet -> Denis
 - [ ] bara de search -> Dani
 - [ ] functionalitate search dupa artist -> Fiona, Razvi
 
-- [ ] 4. Individual Page Song -> schelet -> Fiona, Razvi
+- [ ] 5. Individual Page Song -> schelet -> Fiona, Razvi
 - [ ] detalii melodie -> Madalin
  
