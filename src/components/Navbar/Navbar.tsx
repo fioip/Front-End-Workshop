@@ -9,7 +9,7 @@ import { NavLink } from "react-router-dom";
 import { Stack } from "@mui/material";
 
 const pages = [
-  { pathName: "Home Page", url: "/home" },
+  { pathName: "Home Page", url: "/" },
   { pathName: "Search Page", url: "/search" },
 ];
 
@@ -29,7 +29,6 @@ function Navbar() {
             variant="h6"
             noWrap
             component="a"
-            href="/home"
             sx={{
               mr: 2,
               display: { xs: "none", md: "flex" },
