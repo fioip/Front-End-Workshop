@@ -13,9 +13,9 @@ Individual Page Podcast
 
 ## Tasks:
 
-- [ ] 1. Navbar -> Fiona
+- [x] 1. Navbar -> Fiona
 
-- [ ] 2. Home page -> schelet -> Nandor
+- [x] 2. Home page -> schelet -> Nandor
 - [ ] lista cu primele 5 cele mai ascultate -> Nandor
 - [ ] cele mai 5 noi piese -> Laura
 
