@@ -33,9 +33,9 @@ function Navbar() {
             sx={{
               mr: 2,
               display: { xs: "none", md: "flex" },
-              fontFamily: "monospace",
-              fontWeight: 700,
-              letterSpacing: ".3rem",
+              fontFamily: "Poppins",
+              fontWeight: 800,
+              letterSpacing: ".2rem",
               color: "white",
               textDecoration: "none",
             }}
