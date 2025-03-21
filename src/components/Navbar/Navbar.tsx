@@ -44,13 +44,6 @@ function Navbar() {
           </Typography>
           <Stack direction="row" spacing={2}>
             {pages.map((page) => (
-              //   <Button
-              //     key={page.url}
-              //     sx={{ my: 2, color: "white", display: "block" }}
-              //     onClick={() => navigate(page.url)}
-              //   >
-              //     {page.pathName}
-              //   </Button>
               <NavLink to={page.url} style={{ textDecoration: "none" }}>
                 <Typography variant="h6" color="white">
                   {page.pathName}
