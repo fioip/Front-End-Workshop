@@ -13,7 +13,7 @@ Individual Page Podcast
 
 ## Tasks:
 
-- [ ] 1. Integrare API -> Fiona, Razvi
+- [ ] 1. Navbar -> Fiona
 
 - [ ] 2. Home page -> schelet -> Nandor
 - [ ] lista cu primele 5 cele mai ascultate -> Nandor
@@ -22,7 +22,9 @@ Individual Page Podcast
 - [ ] 3. Search page -> schelet -> Denis
 - [ ] bara de search -> Dani
 - [ ] functionalitate search dupa artist -> Fiona, Razvi
+- [ ] card cu rezultate din bara de search - Denis
 
 - [ ] 4. Individual Page Song -> schelet -> Fiona, Razvi
 - [ ] detalii melodie -> Madalin
- 
+
+
