@@ -7,7 +7,7 @@ import ListItemText from "@mui/material/ListItemText";
 import ListItemAvatar from "@mui/material/ListItemAvatar";
 import Avatar from "@mui/material/Avatar";
 import IconButton from "@mui/material/IconButton";
-import PlayArrowIcon from "@mui/icons-material/PlayArrow";
+// import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 
 const URL = "https://accounts.spotify.com/api/token";
 const CLIENT_ID = "717333395b5f4dd49fcb98e2b595ddee";
@@ -132,7 +132,8 @@ function MostListened() {
                   rel="noopener noreferrer"
                   color="primary"
                 >
-                  <PlayArrowIcon fontSize="large" />
+                  {/* <PlayArrowIcon fontSize="large" /> */}
+                  <Typography>Play</Typography>
                 </IconButton>
               </ListItem>
             ))}
