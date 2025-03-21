@@ -81,38 +81,23 @@ function MostListened() {
   }, [accessToken]);
 
   return (
-    <>
-      <Typography variant="h2" className="text-center">
+    <div style={{ padding: 40 }}>
+      <Typography variant="h2" style={{ textAlign: "center" }}>
         Top Songs
       </Typography>
-      <Typography variant="subtitle1" className="text-center">
+      <Typography
+        variant="subtitle1"
+        style={{ textAlign: "center", padding: 20 }}
+      >
         These are the most listened songs in the world right now
       </Typography>
 
       {playlistData && (
         <>
-          {/* <Card sx={{ maxWidth: 345, marginBottom: 2 }}>
-            <CardMedia
-              sx={{ height: 300 }}
-              image={
-                playlistData.images?.[0]?.url || "https://placehold.co/300x300"
-              }
-              title={playlistData.name}
-            />
-            <CardContent>
-              <Typography gutterBottom variant="h5">
-                {playlistData.name}
-              </Typography>
-              <Typography variant="body2" sx={{ color: "text.secondary" }}>
-                {playlistData.description || "No description available"}
-              </Typography>
-            </CardContent>
-          </Card> */}
-
           <List>
             {(showAll
               ? playlistData.tracks.items
-              : playlistData.tracks.items.slice(0, 10)
+              : playlistData.tracks.items.slice(0, 5)
             ).map((track, index) => (
               <ListItem key={index} divider>
                 {/* Clickable Album Cover */}
@@ -132,6 +117,7 @@ function MostListened() {
 
                 {/* Song Name & Artist */}
                 <ListItemText
+                  style={{ cursor: "pointer", paddingInline: 20 }}
                   primary={`${index + 1}. ${track.track.name}`}
                   secondary={`By ${track.track.artists
                     .map((artist) => artist.name)
@@ -163,7 +149,7 @@ function MostListened() {
           )}
         </>
       )}
-    </>
+    </div>
   );
 }
 
