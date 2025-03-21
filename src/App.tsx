@@ -1,7 +1,19 @@
-import "./App.css";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+import Navbar from "./components/Navbar";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<h1></h1>}></Route>
+          <Route path="/search" element={<h1>Search Page</h1>}></Route>
+          <Route path="/individual" element={<h1>Individual Page</h1>}></Route>
+        </Routes>
+      </BrowserRouter>
+      <Navbar />
+    </>
+  );
 }
 
 export default App;
