@@ -1,5 +1,3 @@
-
-
     import { useState } from "react";
 
      function Search() {
@@ -15,12 +13,15 @@
 
     return(
         <>
-        <h1
-        
-        > 
-        Search bar
-        </h1>
-        <div style={{ padding: "16px", maxWidth: "600px", margin: "auto" }}>
+    <h1 style={
+      {
+        width: "200vh",
+        textAlign: "center"
+      }
+    }> 
+    Search bar
+    </h1>
+    <div style={{ padding: "16px", maxWidth: "600px", margin: "auto" }}>
       <div style={{ 
         display: "flex", 
         gap: "8px", 
@@ -31,7 +32,7 @@
         borderRadius: "8px", 
         boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)"
       }}>
-      <input
+        <input
           type="text"
           placeholder="Caută..."
           value={query}
