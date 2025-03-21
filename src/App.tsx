@@ -1,5 +1,4 @@
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/HomePage/Home";
 
 function App() {
@@ -8,7 +7,6 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index path="/home" element={<Home />}></Route>
-          <Route path="/" element={<Navbar />}></Route>
           <Route path="/search" element={<h1>Search Page</h1>}></Route>
           <Route path="/individual" element={<h1>Individual Page</h1>}></Route>
         </Routes>
